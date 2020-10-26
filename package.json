@@ -1,10 +1,17 @@
 {
   "name": "thomasclausen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "./src/index.js",
+  "bin": {
+    "thomasclausen": "./src/cmd.js"
+  },
   "scripts": {
+    "default": "node src/cmd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=6"
   },
   "repository": {
     "type": "git",
