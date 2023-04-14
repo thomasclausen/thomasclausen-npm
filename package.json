@@ -1,29 +1,28 @@
 {
   "name": "thomasclausen",
   "version": "0.0.5",
-  "description": "",
+  "homepage": "https://github.com/thomasclausen/thomasclausen-npm#readme",
+  "bugs": {
+    "url": "https://github.com/thomasclausen/thomasclausen-npm/issues"
+  },
+  "license": "MIT",
+  "author": "Thomas Clausen",
   "main": "./src/index.js",
   "bin": {
     "thomasclausen": "./src/cmd.js"
-  },
-  "scripts": {
-    "default": "node src/cmd.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": ">=6"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/thomasclausen/thomasclausen-npm.git"
   },
-  "author": "Thomas Clausen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thomasclausen/thomasclausen-npm/issues"
+  "scripts": {
+    "default": "node src/cmd.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/thomasclausen/thomasclausen-npm#readme",
   "dependencies": {
     "chalk": "^4.1.0"
+  },
+  "engines": {
+    "node": ">=6"
   }
 }
