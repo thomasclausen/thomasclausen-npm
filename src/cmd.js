@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-const thomasclausen = require('./index');
+import thomasclausen from './index.js';
 
 thomasclausen();

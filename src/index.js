@@ -1,6 +1,6 @@
-const chalk = require('chalk');
+import chalk from 'chalk';
 
-module.exports = () => {
+const thomasclausen = () => {
 	console.log(chalk.cyan(``));
 	console.log(chalk.cyan(`Hi, Thomas Clausen here...`));
 	console.log(chalk.cyan(`I recommend you clean your cassette drive daily.`));
@@ -10,3 +10,5 @@ module.exports = () => {
 	console.log(chalk.cyan(` GitHub: ` + chalk.bold(`github.com/thomasclausen`)));
 	console.log(chalk.cyan(``));
 };
+
+export default thomasclausen;
