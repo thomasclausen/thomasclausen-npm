@@ -6,7 +6,7 @@
 
 CommonJS module
 ```sh
-npm install thomasclausen@commomjs
+npm install thomasclausen@commonjs
 ```
 ECMAScript module
 ```sh
@@ -19,7 +19,7 @@ npm install thomasclausen@esmodule
 
 CommonJS module
 ```sh
-npx thomasclausen@commomjs
+npx thomasclausen@commonjs
 ```
 ECMAScript module
 ```sh
