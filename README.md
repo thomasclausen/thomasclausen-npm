@@ -29,7 +29,7 @@ thomasclausen();
 CommonJS
 ```js
 const thomasclausen = require('thomasclausen');
-// const thomasclausen = await import('thomasclausen's);
+// const thomasclausen = await import('thomasclausen');
 
 thomasclausen();
 ```
