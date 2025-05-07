@@ -1,6 +1,7 @@
 {
   "name": "thomasclausen",
-  "version": "41.0.1",
+  "description": "The `thomasclausen` function, when called, will print a series of styled messages to the console, introducing Thomas Clausen and providing links to his web presence.",
+  "version": "42.0.0",
   "homepage": "https://github.com/thomasclausen/thomasclausen-npm#readme",
   "bugs": {
     "url": "https://github.com/thomasclausen/thomasclausen-npm/issues"
@@ -24,6 +25,6 @@
     "chalk": "^5.3.0"
   },
   "engines": {
-    "node": ">=13.2.0"
+    "node": ">=16"
   }
 }

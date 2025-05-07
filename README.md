@@ -1,42 +1,35 @@
 # thomasclausen
 
+The `thomasclausen` function, when called, will print a series of styled messages to the console, introducing Thomas Clausen and providing links to his web presence.
+
 ## Installation
 
 * [`thomasclausen` on npm](https://www.npmjs.com/package/thomasclausen)
 
-CommonJS module
 ```sh
-npm install thomasclausen@commonjs
-```
-ECMAScript module
-```sh
-npm install thomasclausen@esmodule
+npm install thomasclausen
 ```
 
 ## Usage
 
 ### CLI
 
-CommonJS module
 ```sh
-npx thomasclausen@commonjs
-```
-ECMAScript module
-```sh
-npx thomasclausen@esmodule
+npx thomasclausen
 ```
 
 ### Programmatic
 
-CommonJS
-```js
-const thomasclausen = require('thomasclausen');
-
-thomasclausen();
-```
 ECMAScript
 ```js
 import thomasclausen from 'thomasclausen';
+
+thomasclausen();
+```
+CommonJS
+```js
+const thomasclausen = require('thomasclausen');
+// const thomasclausen = await import('thomasclausen's);
 
 thomasclausen();
 ```
