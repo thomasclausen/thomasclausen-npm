@@ -1,7 +1,7 @@
 {
   "name": "thomasclausen",
   "description": "The `thomasclausen` function, when called, will print a series of styled messages to the console, introducing Thomas Clausen and providing links to his web presence.",
-  "version": "42.0.0",
+  "version": "43.0.0",
   "homepage": "https://github.com/thomasclausen/thomasclausen-npm#readme",
   "bugs": {
     "url": "https://github.com/thomasclausen/thomasclausen-npm/issues"
